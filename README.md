@@ -44,6 +44,7 @@ python3 pdfcracker.py
 [<img align="left" width="40px" src="https://github.com/marshal41/marshal41/blob/main/assets/social-media/youtube.png" />][youtube]
 <br />
 
+---
 # END
 
 [website]: https://marshal41.github.io
