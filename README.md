@@ -19,3 +19,20 @@ This Tool is made from educational purpose, to teach students how a PDF Cracker 
 ---
 ### Read [License](LICENSE) Before Using The Tool
 
+---
+### Downloading And Using [Linux]:
+Downloading using git
+```bash
+git clone https://github.com/marshal41/pdf-cracker.git
+pip3 install pikepdf
+```
+Usage:
+```bash
+cd pdf-cracker/
+python3 pdfcracker.py
+```
+---
+### Faced Issues? Email us at [marshal41.help@gmail.com](mailto:marshal41.help@gmail.com)
+
+---
+# END
