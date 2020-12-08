@@ -32,7 +32,7 @@ python3 pdfcracker.py
 ```
 ---
 ### Some Preview Of Program
-<img src="https://github.com/marshal41/assets/blob/main/pdf-cracker/image2.png" width='300px'>
+<img src="https://github.com/marshal41/assets/blob/main/pdf-cracker/image2.png">
 <img src="https://github.com/marshal41/assets/blob/main/pdf-cracker/image.jpg">
 
 ---
