@@ -23,7 +23,7 @@ This Tool is made from educational purpose, to teach students how a PDF Cracker 
 Downloading using git
 ```bash
 git clone https://github.com/marshal41/pdf-cracker.git
-pip3 install pikepdf
+pip3 install pikepdf pyfiglet
 ```
 Usage:
 ```bash
