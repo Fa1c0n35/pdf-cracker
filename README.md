@@ -32,7 +32,7 @@ python3 pdfcracker.py
 ```
 ---
 ### Some Preview Of Program
-<img src="https://github.com/marshal41/assets/blob/main/pdf-cracker/preview.png">
+<img src="https://github.com/marshal41/assets/blob/main/pdf-cracker/image.jpg">
 
 ---
 ### Faced Issues? Email us at [marshal41.help@gmail.com](mailto:marshal41.help@gmail.com)
