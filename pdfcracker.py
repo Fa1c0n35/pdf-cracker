@@ -2,14 +2,19 @@ try:
 	import pikepdf
 	import time
 	import itertools
+	from pyfiglet import figlet_format
+
+	banner = figlet_format("PDF CRACKER")
+	print(banner)
+	print("[+] Author - github.com/marshal41 [+]")
 
 	characters = input(str("[*] Characters To Use: "))
 	min_length = int(input("[*] Min lenght of combinations: "))
 	max_length = int(input("[*] Max lenght of combinations: "))
 	filename = input(str("[*] File name/path To Crack: "))
 
-	if min_length > max_length:
-		print ("[x] Please `min_length` must smaller or same as with `max_length`")
+	if min_length >= max_length:
+		print("[x] Please `min_length` must smaller than `max_length`")
 		exit(1)
 
 	start_time = time.time()
@@ -21,9 +26,9 @@ try:
 
 			try:
 				with pikepdf.open(filename, password=password) as pdf:
-					print("[✓] Password Found!")
+					print("\n[✓] Password Found!")
 					print(f"[✓] Password is {password}")
-					print(f"[✓] Total Time Taken {(time.time() - start_time)}")
+					print(f"[✓] Total Time Taken {int(time.time() - start_time)} Seconds")
 					exit(0)
 			except pikepdf._qpdf.PasswordError as e:
 				continue
@@ -31,11 +36,11 @@ try:
 	print("[x] All Combinations in the given criteria were\ntried, but password was not found")
 	exit(0)
 except KeyboardInterrupt:
-	print("[x] Ctrl + C Detected")
+	print("\n[x] Ctrl + C Detected")
 	exit(0)
 except ImportError:
-	print("[x] Any Required Module Was Not Found, Most Probably 'pikepdf'\nTry pip3 install pikepdf or pip install pikepdf")
+	print("\n[x] Required Module(s) Was Not Found")
 	exit(1)
 except Exception as e:
-	print(e)
+	print(f"\n{e}")
 	exit(1)
